@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".Admin"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/enter_password"
+        android:layout_width="258dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:orientation="horizontal"
+        android:text="@string/enter_password"
+        android:textAlignment="center"
+        android:textColor="#1D67E9"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/password_number"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="155dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_1"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_2"
+        android:textColor="#FFFFFF"
+         />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_3"
+        android:textColor="#FFFFFF"
+         />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_4"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="293dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_5"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="291dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_6"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_7"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_8"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginTop="365dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_9"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/button_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="444dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/b_0"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/backspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="442dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/backspace"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="573dp"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/enter"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="187dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="572dp"
+        android:text="@string/not_admin"
+        android:textColor="#1D67E9"
+        android:textSize="20dp"
+         />
+
+</RelativeLayout>

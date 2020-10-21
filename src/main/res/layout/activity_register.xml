@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="900dp">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="193dp"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edittext_cnf_password"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/selector"
+        android:text="Register From here " />
+
+    <TextView
+        android:id="@+id/textview_login"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="545dp"
+        android:text="Already Registered Please click here to Login"
+        android:textColor="#F60537"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="244dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="Registeration Form"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="637dp"
+        android:background="@drawable/et_style"
+        android:text="Contact US" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_centerHorizontal="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:text="Terms And Conditions"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="295dp"
+            android:layout_height="409dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="162dp"
+            android:text=""
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/acc"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="610dp"
+            android:background="@drawable/selector"
+            android:layout_centerHorizontal="true"
+            android:text="Accept" />
+
+        <Button
+            android:id="@+id/rej"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="609dp"
+            android:layout_marginEnd="57dp"
+            android:layout_gravity="center"
+            android:background="@drawable/selector"
+            android:text="Refuse" />
+
+    </RelativeLayout>
+</ScrollView>

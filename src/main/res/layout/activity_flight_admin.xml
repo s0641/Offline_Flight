@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlightAdmin"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/add_flight"
+        android:layout_width="243dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_buttons"
+        android:text="@string/add_a_flight"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/ad"
+        android:layout_width="199dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="487dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_buttons"
+        android:text="Back to Booking page"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

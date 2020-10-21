@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp">
+
+
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="201dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Username"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="251dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="299dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="394dp"
+        android:background="@drawable/selector"
+        android:text="Log IN " />
+
+    <TextView
+        android:id="@+id/textview_register"
+        android:layout_width="293dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="515dp"
+        android:text="Not Log IN | Register From here "
+        android:textColor="#FF001E"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="244dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:text="       Login Form"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+
+    <Button
+        android:id="@+id/conttt"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="611dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_style"
+        android:text="Contact US" />
+    </RelativeLayout>
+
+</ScrollView>

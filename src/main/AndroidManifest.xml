@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.gohigh">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Contact"></activity>
+        <activity android:name=".Flow" />
+        <activity android:name=".Faltu" />
+        <activity android:name=".FromTo" />
+        <activity android:name=".FlightAdmin" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Search" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
