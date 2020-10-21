@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Arrays;
 
@@ -152,8 +153,7 @@ public class Admin extends AppCompatActivity implements View.OnClickListener{
             }
             else
             {
-                Intent intent = new Intent(Admin.this,Search.class);
-                startActivity(intent);
+                Toast.makeText(getApplicationContext(), "Please enter Password", Toast.LENGTH_SHORT).show();
             }
         }
     }
