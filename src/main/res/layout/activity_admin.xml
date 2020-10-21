@@ -200,25 +200,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="289dp"
-        android:layout_marginTop="573dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="574dp"
         android:background="@drawable/rounded_buttons"
         android:text="@string/enter"
-        android:textColor="#FFFFFF"
-        />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="187dp"
-        android:layout_height="51dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="572dp"
-        android:text="@string/not_admin"
-        android:textColor="#1D67E9"
-        android:textSize="20dp"
-         />
+        android:textColor="#FFFFFF" />
 
 </RelativeLayout>
